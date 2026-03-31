@@ -29,8 +29,8 @@ SEASON_2526 = DATA_DIR / 'season_2025_26.json'
 AUDIT_LOG   = DATA_DIR / 'audit_log.csv'
 
 # ─── REPO / GIT ───────────────────────────────────────────────
-REPO_DIR   = Path.home() / 'Documents' / 'GitHub' / 'PropEdgeV9.2'
-GIT_REMOTE = 'git@github.com:iamwerewolf1007/PropEdgeV9.2.git'
+REPO_DIR   = Path.home() / 'Documents' / 'GitHub' / 'PropEdgeV11.0'
+GIT_REMOTE = 'git@github.com:iamwerewolf1007/PropEdgeV11.0.git'
 
 # ─── API ──────────────────────────────────────────────────────
 ODDS_API_KEY  = 'a77b14b513399a472139e58390aac514'

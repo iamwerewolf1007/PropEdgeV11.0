@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /Users/salman/Documents/GitHub/PropEdgeV11.0
-FIRST_GAME=$(/Library/Frameworks/Python.framework/Versions/3.13/bin/Python3 -c "
+FIRST_GAME=$(/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 -c "
 import requests,json
 from datetime import datetime,timezone,timedelta
 try:
@@ -21,5 +21,5 @@ HOUR=${FIRST_GAME%%:*}
 TARGET_HOUR=$((HOUR - 1))
 CURRENT_HOUR=$(date +%H)
 if [ "$CURRENT_HOUR" -ge "$TARGET_HOUR" ]; then
-    /Library/Frameworks/Python.framework/Versions/3.13/bin/Python3 /Users/salman/Documents/GitHub/PropEdgeV11.0/batch_predict.py 3
+    /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/salman/Documents/GitHub/PropEdgeV11.0/batch_predict.py 3
 fi
