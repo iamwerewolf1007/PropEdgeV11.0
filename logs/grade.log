@@ -148,3 +148,33 @@ PropEdge V9.2 — BATCH 0: GRADE + UPDATE
     Out-of-sample directional accuracy: 67.6%
   ✓ Git push: B0: grade 2026-04-03
   ✓ BATCH 0 complete
+============================================================
+PropEdge V9.2 — BATCH 0: GRADE + UPDATE
+  2026-04-05 07:36 UTC+01:00
+============================================================
+  Grading: 2026-04-04
+
+  Fetching box scores: 2026-04-04...
+    3 games
+  Fetched 67 played rows, 84 players in box
+  ✓ Graded 37: 18W/19L, 2 DNP
+  ✓ Game logs: 25021 → 25090 (+67 played, +2 DNP stubs)
+  ⚠ update_postmatch_rolling: failed to load CSV — name 'load_combined' is not defined
+
+  Cross-checking rolling stats for 2026-04-04...
+  ✓ Cross-check: all rolling stats consistent for 2026-04-04
+  ✓ Daily Excel graded: 2026-04-04.xlsx
+
+  Rebuilding H2H...
+  ✓ H2H: 15611 pairs → h2h_database.csv
+  Retraining model...
+    Building training data (vectorised, DNP excluded)...
+    Rows (played only): 50,734  Players: 634
+    Training rows after filters: 44,667
+    Training samples: 44,667
+    GBR Early Stopping: 264 trees optimal (OOS chron validation)
+    ✓ Model → projection_model.pkl
+    ✓ Trust: 419 players → player_trust.json
+    Out-of-sample directional accuracy: 67.6%
+  ✓ Git push: B0: grade 2026-04-04
+  ✓ BATCH 0 complete
