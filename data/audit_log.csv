@@ -188,3 +188,14 @@ ts,batch,event,file,rows_before,rows_after,detail
 2026-04-05 17:15:58,B2,PREDICTIONS,,,,"131 plays, skipped 1"
 2026-04-05 17:15:59,B2,BATCH_SUMMARY,,,,"props_fetched=131, plays_added=1"
 2026-04-05 17:15:59,B2,INTEGRITY_OK,/Users/salman/Documents/GitHub/PropEdgeV11.0/data/today.json,766,767,SAVE_TODAY
+2026-04-05 17:16:01,B2,BATCH_COMPLETE,,,,
+2026-04-05 18:00:02,B2,BATCH_START,,,,2026-04-05
+2026-04-06 07:59:29,B0,BATCH_START,,,,
+2026-04-06 07:59:45,B0,BOXSCORES_FETCHED,,,,212 rows for 2026-04-05
+2026-04-06 07:59:53,B0,BATCH_SUMMARY,,,,"plays_graded=108, wins=57, losses=51, dnp=24"
+2026-04-06 08:00:10,B1,BATCH_START,,,,2026-04-06
+2026-04-06 08:00:13,B0,FILE_STATE_BEFORE_APPEND,nba_gamelogs_2025_26.csv,25090,,
+2026-04-06 08:00:20,B1,PROPS_FETCHED,,,,"60 props, 5 games"
+2026-04-06 08:32:54,B1,PREDICTIONS,,,,"60 plays, skipped 0"
+2026-04-06 08:33:03,B1,BATCH_SUMMARY,,,,"props_fetched=60, plays_added=60"
+2026-04-06 08:33:03,B1,INTEGRITY_OK,/Users/salman/Documents/GitHub/PropEdgeV11.0/data/today.json,767,827,SAVE_TODAY
